@@ -109,8 +109,7 @@ const App = () => {
     <div className='parent'>
       {
         jobs.map( (elem) => ( 
-          
-            <JobOpenings key={elem.companyName} brandLogo={elem.brandLogo} companyName={elem.companyName} datePosted={elem.datePosted} post={elem.post} tag1={elem.tag1} tag2={elem.tag2} pay={elem.pay} location={elem.location} />  
+          <JobOpenings key={elem.companyName} brandLogo={elem.brandLogo} companyName={elem.companyName} datePosted={elem.datePosted} post={elem.post} tag1={elem.tag1} tag2={elem.tag2} pay={elem.pay} location={elem.location} />  
         ))
       }
     </div>
