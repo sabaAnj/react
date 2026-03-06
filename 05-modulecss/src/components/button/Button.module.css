@@ -1,0 +1,14 @@
+.btn{
+    width: fit-content;
+    color: lightseagreen;
+    background-color: #dacafa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
