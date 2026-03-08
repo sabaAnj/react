@@ -2,7 +2,7 @@ import 'remixicon/fonts/remixicon.css'
 import RightCardContent from './RightCardContent'
 
 const RightCard = (props) => {
-  console.log(props)
+ 
   return (
     <div className='h-full w-60 shrink-0 overflow-hidden relative rounded-4xl'>
 
