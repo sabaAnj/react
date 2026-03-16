@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+input{
+  margin: 10px;
+  padding: 6px 3px;
+}
+
+button{
+  border: transparent 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+}

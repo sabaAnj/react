@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.arr{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.obj{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.diff{
+    background-color: lightblue;
+}
+
+.num{
+    background-color: pink;
+}
+
+p{
+    font-size: 25px;
+    color: indigo;
+}
+
+div{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button{
+    padding: 10px;
+}
