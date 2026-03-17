@@ -25,9 +25,9 @@ const Form = () => {
         placeholder='Enter your name' 
         value={title}
         onChange={inputHandler}     //React automatically sends the event object to the handler.
-        className='border border-2 px-4 py-2 m-4 text-xl' />
+        className='border px-4 py-2 m-4 text-xl' />
 
-        <button className='bg-blue-200 text-xl px-4 py-2 rounded-md hover:bg-blue-300 border border-1'>Submit</button>
+        <button className='bg-blue-200 text-xl px-4 py-2 rounded-md hover:bg-blue-300 border'>Submit</button>
       </form>
 
     </div>
